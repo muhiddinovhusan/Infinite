@@ -16,7 +16,7 @@ const InfraStructure = () => {
     <li className='hover:text-[#E1AF93]'>Транспорт</li>
     <li className='hover:text-[#E1AF93]'>Школы</li>
 </ul>
-<p className='w-[540px] max-md:w-[565px] mb-8 max-x:w-[280px] max-sm:w-[360px]'>
+<p className='w-[540px] max-md:w-[565px] mb-8 max-x:w-[280px] max-sm:w-[340px]'>
 Наш район предлагает широкий выбор магазинов, чтобы удовлетворить любые потребности. В пешей доступности расположены крупные супермаркеты и продуктовые магазины, где вы всегда найдете свежие продукты и товары повседневного спроса
 </p>
 <div className='flex justify-between max-sm:w-[280px] mb-9 w-[330px] '>

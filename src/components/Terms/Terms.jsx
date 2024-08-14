@@ -8,7 +8,7 @@ const Terms = () => {
         }}>
 <div className='mb-10'>
     <h1 className='text-4xl max-x:text-3xl  font-medium mb-5'>Условия покупки</h1>
-    <p className='w-[600px] text-[#858585] max-x:w-[280px] max-sm:w-[350px]'>Процесс покупки недвижимости в нашем агентстве разработан таким образом,
+    <p className='w-[600px] text-[#858585] max-x:w-[280px] max-sm:w-[340px]'>Процесс покупки недвижимости в нашем агентстве разработан таким образом,
      чтобы обеспечить максимальное удобство и прозрачность для наших клиентов</p>
 </div>
 
@@ -36,7 +36,7 @@ const Terms = () => {
 </div>
 <div className='flex justify-between max-md:flex-col mb-4 border-b border-b-[#ebebeb] pb-8'>
     <h2 className='font-medium max-md:text-lg'>Гарантии и обязательства</h2>
-    <div className='w-[505px] max-sm:w-[360px] max-x:w-[280px] md:pl-10'>
+    <div className='w-[505px] max-sm:w-[340px] max-x:w-[280px] md:pl-10'>
         <p>Обязательства агентства: проверка документов, сопровождение сделки</p>
         <p>Гарантии покупателю: юридическая чистота сделки, сопровождение до регистрации собственности</p>
     </div>

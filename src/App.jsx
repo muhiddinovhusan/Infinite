@@ -19,9 +19,7 @@ const App = () => {
   return (
     <div>
 
-    <div className='p-4'>
       <Navbar />
-    </div>
       <Header/>
       <Navbar2/>
       <Club/>

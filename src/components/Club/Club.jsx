@@ -32,7 +32,7 @@ const Club = () => {
 <div className=' max-sm:h-[320px] mb-8 h-[400px] md:h-[550px] '>
 <img src={img2} className='object-cover h-full w-full' alt="" />
 </div>
-<p className='w-[472px] max-sm:w-[354px] max-x:w-[280px]  max-sm:text-[15px] mb-6 font-normal text-base md:hidden'> Дом имеет свой приватный, закрытый двор, с несколькими зонами отдыха для взрослых и детей. Отдельно предусмотрено помещение для консьержа и охраны. Из окон квартир открывается вид на эксклюзивный ландшафтный двор-парк общей площадью более 1 Га, с прогулочными аллеями, водными объектами и летним кинотеатром.</p>
+<p className='w-[472px] max-sm:w-[340px] max-x:w-[280px]  max-sm:text-[15px] mb-6 font-normal text-base md:hidden'> Дом имеет свой приватный, закрытый двор, с несколькими зонами отдыха для взрослых и детей. Отдельно предусмотрено помещение для консьержа и охраны. Из окон квартир открывается вид на эксклюзивный ландшафтный двор-парк общей площадью более 1 Га, с прогулочными аллеями, водными объектами и летним кинотеатром.</p>
 <div className='flex  gap-2  md:hidden'>
 <button className='w-11 h-11 max-x:w-10 max-x:h-10   flex justify-center items-center rounded-full border-black border'>
 <img src={vector} className='h-3 filter invert' alt="" />
