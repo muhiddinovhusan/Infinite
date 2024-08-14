@@ -53,7 +53,7 @@ const Mortgage = () => {
 {
     input.slice(0, 2).map((item, index) => (   
              <div key={index} className='w-1/2 max-sm:mb-3'>
-            <h3 className='w-80 max-x:w-72 mb-0.5'>{item.label}</h3>
+            <h3 className='w-80 max-sm:w-72 max-x:w-72 mb-0.5'>{item.label}</h3>
             <input
                 className='block h-12 max-x:h-10 max-x:w-[266px] w-[296px]  text-gray-700 border border-gray-300'
                 type='text'
@@ -68,7 +68,7 @@ const Mortgage = () => {
 {
     input.slice(2, 4).map((item, index) => (   
              <div key={index} className='w-1/2 max-sm:mb-3'>
-            <h3 className='w-80 max-x:w-72 mb-0.5'>{item.label}</h3>
+            <h3 className='w-80 max-sm:w-72 max-x:w-72 mb-0.5'>{item.label}</h3>
             <input
                 className='block h-12 max-x:h-10 max-x:w-[266px] w-[296px]  text-gray-700 border border-gray-300'
                 type='text'
