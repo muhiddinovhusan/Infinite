@@ -19,16 +19,16 @@ maxWidth: 1190, margin: "0 auto ", padding: "0 20px"
 
 <div>
 
-<h1 className='font mt-2 text-lg'>RMC DE LUXE</h1>
+<h1 className='font mt-2 max-md:text-base max-x:text-[14px] text-lg'>RMC DE LUXE</h1>
 <p className='font text-[#A6A6A6] -mt-0.5'>real estate</p>
 </div>
   </div>
 
    <div className='flex gap-2'> 
-    <img src={instagram} className='h-8' alt="" />
-    <img src={telegram} className='h-8' alt="" />
-    <img src={whatsapp} className='h-8' alt="" />
-    <img src={facebook} className='h-8' alt="" />
+    <img src={instagram} className='h-8 max-x:h-[26px]' alt="" />
+    <img src={telegram} className='h-8 max-x:h-[26px]' alt="" />
+    <img src={whatsapp} className='h-8 max-x:h-[26px]' alt="" />
+    <img src={facebook} className='h-8 max-x:h-[26px]' alt="" />
    </div>
   </div>
   <div  className='max-md:pb-8 border-b max-sm:grid max-sm:grid-cols-2 flex gap-36 max-md:gap-10  pt-7 border-b-[#ededed]'>

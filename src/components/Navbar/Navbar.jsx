@@ -18,7 +18,7 @@ const Header = () => {
 <img src={img} alt="" />
 <div>
 
-<h1 className='font mt-2 max-md:text-base max-x:text-xs text-lg'>RMC DE LUXE</h1>
+<h1 className='font mt-2 max-md:text-base max-x:text-[14px]  text-lg'>RMC DE LUXE</h1>
 <p className='font text-[#A6A6A6] -mt-0.5'>real estate</p>
 </div>
 
