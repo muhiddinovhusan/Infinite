@@ -34,7 +34,7 @@ const App = () => {
       <Process/>
       <Questions/> 
       <Others/>
-      / <Footer/>
+      <Footer/>
     </div>
   )
 }
