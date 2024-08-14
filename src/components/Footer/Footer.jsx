@@ -57,11 +57,11 @@ maxWidth: 1190, margin: "0 auto ", padding: "0 20px"
 <h1 className='font-medium text-lg max-md:text-[17px] mb-1.5'>Другое</h1>
 <h2 className='mb-1 text-[15px] max-md:text-[14px]'>Ипотечный калькулятор </h2>
 <h2 className='mb-1 text-[15px] max-md:text-[14px]'>Купить </h2>
-<h2 className='mb-1 text-[15px] max-md:text-[14px] w-[147px]'>Инвестиции в недвижимость в Дубае </h2>
+<h2 className='mb-1 text-[15px] max-md:text-[14px] max-x:w-[130px] w-[147px]'>Инвестиции в недвижимость в Дубае </h2>
 </div>
   </div>
   <div className='flex text-[#B3B3B3] -bottom-0 max-md:text-[14px] justify-between'>
-<p className=' max-md:w-80'>2024 © RMC De Luxe real estate LLC. Все права защищены</p>
+<p className=' max-md:w-80 '>2024 © RMC De Luxe real estate LLC. Все права защищены</p>
 <img src={logo} alt="" />
   </div>
 

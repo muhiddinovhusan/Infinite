@@ -24,7 +24,7 @@ const Reviews = () => {
   
     return (
       <div style={{ maxWidth: 1250, margin: "0 auto", padding: "0 20px" }}>
-        <h1 className='text-[40px] font-medium mb-8'>Отзивы покупателей</h1>
+        <h1 className='text-[40px] max-x:text-3xl font-medium mb-8'>Отзивы покупателей</h1>
         <div className='flex gap-4 mb-10 overflow-x-scroll pb-4'>
           {data.map((item, i) => (
             <ReviewsCard
@@ -36,7 +36,7 @@ const Reviews = () => {
         </div>
         <div className="flex justify-center mb-48 items-center">
 
-        <button className='bg-[#E1AF93] hover:border-black hover:border text-[#ffffff] w-48 max-sm:w-1/2 font-semibold text-sm h-11'>Все отзывы</button>
+        <button className='bg-[#E1AF93] max-x:w-[150px] max-x:h-[38px] max-x:text-xs hover:border-black hover:border text-[#ffffff] w-48 max-sm:w-1/2 font-semibold text-sm h-11'>Все отзывы</button>
         </div>
 
       </div>

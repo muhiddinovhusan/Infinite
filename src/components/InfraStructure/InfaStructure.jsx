@@ -11,12 +11,12 @@ const InfraStructure = () => {
 </div>
 <div className='md:px-11 '>
 <h1 className='max-md:hidden mb-8 text-4xl  font-medium'>Инфраструктура района</h1>
-<ul className='flex items-center  text-[#858585] max-md:h-16 border-b border-b-[#ebebeb] mb-4 md:w-96 pb-4 gap-16'>
+<ul className='flex items-center max-x:gap-11 text-[#858585] max-md:h-16 border-b border-b-[#ebebeb] mb-4 md:w-96 pb-4 gap-16'>
     <li className='hover:text-[#E1AF93]  '>Магазины</li>
     <li className='hover:text-[#E1AF93]'>Транспорт</li>
     <li className='hover:text-[#E1AF93]'>Школы</li>
 </ul>
-<p className='w-[540px] max-md:w-[565px] mb-8 max-sm:w-[360px]'>
+<p className='w-[540px] max-md:w-[565px] mb-8 max-x:w-[280px] max-sm:w-[360px]'>
 Наш район предлагает широкий выбор магазинов, чтобы удовлетворить любые потребности. В пешей доступности расположены крупные супермаркеты и продуктовые магазины, где вы всегда найдете свежие продукты и товары повседневного спроса
 </p>
 <div className='flex justify-between max-sm:w-[280px] mb-9 w-[330px] '>

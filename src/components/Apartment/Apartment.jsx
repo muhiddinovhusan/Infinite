@@ -9,15 +9,15 @@ const Apartment = () => {
 
         maxWidth: 1250, margin: "0 auto", padding: "0 20px"
         }}>
-<h1 className='font-medium mb-6 text-4xl'>Планировки и доступные квартиры</h1>
-<div className='mb-10 gap-3 flex'>
-<select className='bg-[#EDF3F5] h-11  w-28 text-center px-2' name="" id="">
+<h1 className='font-medium mb-6 max-x:text-3xl text-4xl'>Планировки и доступные квартиры</h1>
+<div className='mb-10 gap-3 max-md:flex-wrap flex'>
+<select className='bg-[#EDF3F5] h-11 max-x:w-24 text-sm max-x:h-10 w-28 text-center px-2' name="" id="">
     <option value=""> Этаж</option>
 </select>
-<select className='bg-[#EDF3F5] h-11  w-28 text-center px-2' name="" id="">
+<select className='bg-[#EDF3F5] h-11 max-x:text-sm max-x:w-24 max-x:h-10  w-28 text-center px-2' name="" id="">
     <option value=""> Цена</option>
 </select>
-<select className='bg-[#EDF3F5] h-11  w-48 text-center px-2' name="" id="">
+<select className='bg-[#EDF3F5] h-11 max-x:h-10 max-x:text-sm max-x:w-40  w-48 text-center px-2' name="" id="">
     <option value=""> Количество комнат</option>
 </select>
 {/* <button className='w-32 h-12 bg-[#EDF3F5] flex justify-center items-center'>
@@ -317,7 +317,7 @@ $600 000
 </div>
 
 <div className=' flex items-center mb-36 justify-center '>
-<button className='bg-[#E1AF93] hover:border-black hover:border text-[#ffffff] w-52 max-sm:w-1/2 font-semibold text-sm h-11'>Загрузить все</button>
+<button className='bg-[#E1AF93] max-x:w-[150px] max-x:h-[38px] max-x:text-xs hover:border-black hover:border text-[#ffffff] w-52 max-sm:w-1/2 font-semibold text-sm h-11'>Загрузить все</button>
 </div>
 
     </div>

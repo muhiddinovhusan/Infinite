@@ -28,13 +28,13 @@ const App = () => {
       <PhotoGalery/>
       <Apartment/>
       <Terms/>
-      <InfraStructure/>
-      <Reviews/>
+      <InfraStructure/> 
+       <Reviews/>
       <Mortgage/>
       <Process/>
-      <Questions/>
+      <Questions/> 
       <Others/>
-      <Footer/>
+      / <Footer/>
     </div>
   )
 }

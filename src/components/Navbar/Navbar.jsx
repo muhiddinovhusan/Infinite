@@ -7,7 +7,7 @@ import './Navbar.css'
 import { Bell, BellDot, Heart, HeartIcon, PhoneCall, Search } from 'lucide-react'
 const Header = () => {
   return (
-    <div className='flex mb-2 h-16'  style={{
+    <div className='flex mb-2 h-auto'  style={{
 
       maxWidth: 1250, margin: "0 auto", padding: "0 20px"
     }}>
@@ -18,7 +18,7 @@ const Header = () => {
 <img src={img} alt="" />
 <div>
 
-<h1 className='font mt-2 text-lg'>RMC DE LUXE</h1>
+<h1 className='font mt-2 max-md:text-base max-x:text-xs text-lg'>RMC DE LUXE</h1>
 <p className='font text-[#A6A6A6] -mt-0.5'>real estate</p>
 </div>
 
@@ -33,16 +33,16 @@ const Header = () => {
 <h2>Контакты</h2>
 </div>
 <div className='w-1/4 max-md:w-2/4 gap-4 flex justify-end items-center '>
-<div className='w-12 h-12 rounded-3xl flex justify-center items-center border'><Search size={23}/>
+<div className='w-12 h-12 max-x:w-16 max-sm:w-[65px] max-x:h-8 rounded-full flex justify-center items-center border'><Search size={23} className='max-x:h-4'/>
 </div>
-<div className='w-12 h-12 flex justify-center items-center rounded-3xl border'>
-<img src={img1} alt="" />
+<div className='w-12 h-12 max-x:w-16  max-sm:w-[65px] max-x:h-8 flex justify-center items-center rounded-full border'>
+<img src={img1} className='max-x:h-4' alt="" />
 </div>
-<div className='w-12 h-12 rounded-3xl border max-md:hidden bg-[#333333] flex justify-center items-center'>
+<div className='w-12 h-12  rounded-full border max-md:hidden bg-[#333333] flex justify-center items-center'>
 <img src={img2} className='h-4' alt="" />
 </div>
-<div className='w-12 h-12 rounded-3xl border md:hidden bg-[#333333] flex justify-center items-center'>
-<img src={img3} className='h-4' alt="" />
+<div className='w-12 h-12 max-x:w-16 max-sm:w-[65px] max-x:h-8 rounded-full border md:hidden bg-[#333333] flex justify-center items-center'>
+<img src={img3} className='h-4 max-x:h-3' alt="" />
 </div>
 
 <div className='w-16 h-12 flex max-md:hidden justify-center items-center rounded-3xl border'>

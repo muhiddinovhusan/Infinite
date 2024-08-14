@@ -45,17 +45,17 @@ const Mortgage = () => {
         maxWidth: 1250, margin: "0 auto", padding: "0 20px"
         }}
         >
-            <h1 className='text-4xl font-medium mb-8'>Рассчитайте ипотеку</h1>
-            <div className='flex shadoww  pt-6 px-6 md:px-10 max-sm:flex-col md:pt-10 w-full h-auto mb-48'>
+            <h1 className='text-4xl max-x:text-3xl font-medium mb-8'>Рассчитайте ипотеку</h1>
+            <div className='flex shadoww  pt-6 max-x:px-0 px-6 md:px-10 max-sm:flex-col md:pt-10 w-full h-auto mb-48'>
 <div className='md:w-3/5 w-2/3 sm:border-r sm:border-r-red-50    md:pr-10  gap-2 '>
 <div className='flex md:mb-9 max-md:flex-col'>
 
 {
     input.slice(0, 2).map((item, index) => (   
              <div key={index} className='w-1/2 max-sm:mb-3'>
-            <h3 className='w-80 mb-0.5'>{item.label}</h3>
+            <h3 className='w-80 max-x:w-72 mb-0.5'>{item.label}</h3>
             <input
-                className='block h-12 w-[296px]  text-gray-700 border border-gray-300'
+                className='block h-12 max-x:h-10 max-x:w-[266px] w-[296px]  text-gray-700 border border-gray-300'
                 type='text'
                 placeholder={item.placeholder}
             />
@@ -68,9 +68,9 @@ const Mortgage = () => {
 {
     input.slice(2, 4).map((item, index) => (   
              <div key={index} className='w-1/2 max-sm:mb-3'>
-            <h3 className='w-80 mb-0.5'>{item.label}</h3>
+            <h3 className='w-80 max-x:w-72 mb-0.5'>{item.label}</h3>
             <input
-                className='block h-12 w-[296px]  text-gray-700 border border-gray-300'
+                className='block h-12 max-x:h-10 max-x:w-[266px] w-[296px]  text-gray-700 border border-gray-300'
                 type='text'
                 placeholder={item.placeholder}
             />
@@ -80,10 +80,10 @@ const Mortgage = () => {
 
 </div>
 <div className=' flex  items-center   '>
-<button className='bg-[#E1AF93] hover:border-black hover:border text-[#ffffff] max-sm:mb-10 w-48 max-sm:w-1/2 font-semibold text-sm h-11'> Рассчитать</button>
+<button className='bg-[#E1AF93] max-x:w-[150px] max-x:h-[38px] max-x:text-xs hover:border-black hover:border text-[#ffffff] max-sm:mb-10 w-48 max-sm:w-1/2 font-semibold text-sm h-11'> Рассчитать</button>
 </div>
 </div>
-<div className='md:w-2/5 w-1/3 sm:pl-10 max-sm:w-full '>
+<div className='md:w-2/5 w-1/3 sm:pl-10 max-x:pl-2 max-sm:w-full '>
 <div className='flex max-md:flex-col  md:mb-9'>
 
 {

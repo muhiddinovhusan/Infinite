@@ -9,7 +9,7 @@ const PhotoGalery = () => {
       maxWidth: 1250, margin: "0 auto", padding: "0 20px"
       }}>
 <div className='flex justify-between  mb-6'>
-<h1 className='font-medium text-3xl'>
+<h1 className='font-medium text-4xl max-x:text-3xl'>
 Фотогалерея и видеотуры
 </h1>
 
@@ -28,7 +28,7 @@ const PhotoGalery = () => {
 </div>
 
 <div className=' flex items-center mb-36 justify-center '>
-<button className='bg-[#E1AF93] hover:border-black hover:border text-[#ffffff] w-52 max-sm:w-1/2 font-semibold text-sm h-11'>Посмотреть всё</button>
+<button className='bg-[#E1AF93] max-x:w-[150px] max-x:h-[38px] max-x:text-xs hover:border-black hover:border text-[#ffffff] w-52 max-sm:w-1/2 font-semibold text-sm h-11'>Посмотреть всё</button>
 </div>
     </div>
   )

@@ -28,7 +28,7 @@ const Process = () => {
 
             maxWidth: 1250, margin: "0 auto", padding: "0 20px"
         }}>
-            <h1 className='text-4xl font-medium mb-10'>Процесс покупки недвижимости</h1>
+            <h1 className='text-4xl max-x:text-3xl font-medium mb-10'>Процесс покупки недвижимости</h1>
             
 
             <div className='flex mb-20 max-md:border-l max-sm:pl-6 max-md:pl-9 max-md:border-l-[#ebebeb] md:border-t-[#ebebeb] md:border-t pt-8 max-md:flex-col  gap-4 max-md:gap-7 '>
@@ -43,8 +43,8 @@ const Process = () => {
                             </div>
                             <div className=''>
                                 <h1 className='font-medium text-2xl mb-3 w-11/12'>{item.text}</h1>
-                                <p className='text-[#858585] max-sm:w-[310px]  max-md:w-[390px]'>{item.text2}</p>
-                            </div>
+                                <p className='text-[#858585] max-x:w-[270px] max-sm:w-[310px]  max-md:w-[390px]'>{item.text2}</p>
+                            </div> 
                         </div>
                     ))
                 }
