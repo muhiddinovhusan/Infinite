@@ -47,15 +47,15 @@ const Mortgage = () => {
         >
             <h1 className='text-4xl max-x:text-3xl font-medium mb-8'>Рассчитайте ипотеку</h1>
             <div className='flex shadoww  pt-6 max-x:px-0 px-6 md:px-10 max-sm:flex-col md:pt-10 w-full h-auto mb-48'>
-<div className='md:w-3/5 w-2/3 sm:border-r sm:border-r-red-50    md:pr-10  gap-2 '>
-<div className='flex md:mb-9 max-md:flex-col max-md:pr-4 gap-6'>
+<div className='md:w-3/5  sm:border-r sm:border-r-red-50    md:pr-10  gap-2 '>
+<div className='flex md:mb-9 max-md:flex-col sm:pr-4 gap-6'>
 
 {
     input.slice(0, 2).map((item, index) => (   
-             <div key={index} className='w-1/2 max-md:w-full max-sm:mb-3'>
+             <div key={index} className='md:w-1/2 max-md:w-full max-sm:mb-3'>
             <h3 className='w-80 max-sm:w-72 max-x:w-72  mb-0.5'>{item.label}</h3>
             <input
-                className='block h-12 max-x:h-10 max-mdd:w-[210px] max-md:w-full max-x:w-[266px] w-[296px]  text-gray-700 border border-gray-300'
+                className='block h-12 max-x:h-10 max-mdd:w-[200px] max-md:w-full max-x:w-[266px]   text-gray-700 border border-gray-300'
                 type='text'
                 placeholder={item.placeholder}
             />
@@ -63,14 +63,14 @@ const Mortgage = () => {
     ))
 }
 </div>
-<div className=' max-md:flex-col gap-6 max-md:pr-4 flex mb-8'>
+<div className=' max-md:flex-col gap-6 sm:pr-4 flex mb-8'>
 
 {
     input.slice(2, 4).map((item, index) => (   
-             <div key={index} className='md:w-1/2 sm:w-full max-sm:mb-3'>
+             <div key={index} className='md:w-1/2  max-sm:w-full max-sm:mb-3'>
             <h3 className='w-80 max-sm:w-72 max-x:w-72 mb-0.5'>{item.label}</h3>
             <input
-                className='block h-12 max-x:h-10 max-x:w-[266px] sm:w-full max-mdd:w-[210px] w-[296px]  text-gray-700 border border-gray-300'
+                className='block h-12 max-x:h-10 max-x:w-[266px]  max-md:w-full max-mdd:w-[200px] max-sm:w-full  text-gray-700 border border-gray-300'
                 type='text'
                 placeholder={item.placeholder}
             />
