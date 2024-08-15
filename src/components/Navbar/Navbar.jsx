@@ -32,7 +32,7 @@ const Header = () => {
 <h2>Блог</h2>
 <h2>Контакты</h2>
 </div>
-<div className='w-1/4 max-mdd:w-[48%] gap-4 flex justify-end items-center '>
+<div className='w-1/4 max-mdd:w-[40%] gap-4 flex justify-end items-center '>
 <div className='w-12 h-12 max-x:w-16 max-sm:w-[65px] max-mdd:w-12 max-mdd:h-12 max-x:h-8 rounded-full flex justify-center items-center border'><Search size={23} className='max-x:h-4'/>
 </div>
 <div className='w-12 h-12 max-x:w-16  max-sm:w-[65px] max-x:h-8 flex justify-center items-center rounded-full border'>
