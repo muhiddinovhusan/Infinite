@@ -23,7 +23,7 @@ const Header = () => {
 </div>
 
 </div>
-<div className='w-2/4 max-md:hidden   gap-10 justify-center flex items-center'>
+<div className='w-2/4 max-md:hidden   gap-10 lg:justify-center flex items-center'>
 <select name="" id="">
   <option value="">Услуги</option>
 
@@ -32,8 +32,8 @@ const Header = () => {
 <h2>Блог</h2>
 <h2>Контакты</h2>
 </div>
-<div className='w-1/4 max-md:w-2/4 gap-4 flex justify-end items-center '>
-<div className='w-12 h-12 max-x:w-16 max-sm:w-[65px] max-x:h-8 rounded-full flex justify-center items-center border'><Search size={23} className='max-x:h-4'/>
+<div className='w-1/4 max-mdd:w-[48%] gap-4 flex justify-end items-center '>
+<div className='w-12 h-12 max-x:w-16 max-sm:w-[65px] max-mdd:w-12 max-mdd:h-12 max-x:h-8 rounded-full flex justify-center items-center border'><Search size={23} className='max-x:h-4'/>
 </div>
 <div className='w-12 h-12 max-x:w-16  max-sm:w-[65px] max-x:h-8 flex justify-center items-center rounded-full border'>
 <img src={img1} className='max-x:h-4' alt="" />
