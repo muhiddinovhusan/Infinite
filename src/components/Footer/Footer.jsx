@@ -31,7 +31,7 @@ maxWidth: 1190, margin: "0 auto ", padding: "0 20px"
     <img src={facebook} className='h-8 max-x:h-[26px]' alt="" />
    </div>
   </div>
-  <div  className='max-md:pb-8 border-b max-sm:grid max-sm:grid-cols-2 flex gap-36 max-md:gap-10  pt-7 border-b-[#ededed]'>
+  <div  className='max-md:pb-8 border-b max-sm:grid max-sm:grid-cols-2 flex gap-32 max-md:gap-10  pt-7 border-b-[#ededed]'>
 <div className=''>
 <h1 className='font-medium text-lg max-md:text-[17px] mb-1.5'>Услуги</h1>
 <h2 className='mb-1 text-[15px] max-md:text-[14px]'>Купить </h2>
