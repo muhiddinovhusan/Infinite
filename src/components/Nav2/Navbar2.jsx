@@ -7,7 +7,7 @@ const Navbar2 = () => {
         maxWidth: 1250, margin: "0 auto", padding: "0 20px"
       }}>
 
-        <ul className='flex items-center text-sm  max-md:overflow-x-auto max-md:whitespace-nowrap w-full max-md:gap-14 md:justify-center h-20 border-b mb-40 border-b-[#ededed] gap-24 '>
+        <ul className='flex items-center text-sm  max-md:overflow-x-auto max-md:whitespace-nowrap w-full max-md:gap-14 md:justify-center h-20 border-b mb-40 border-b-[#ededed] gap-[75px] '>
             <li><a href='#' className='hover:text-[#E1AF93] font-medium'>О комплексе</a></li>
             <li><a href='#' className='hover:text-[#E1AF93] font-medium'>Галерея</a></li>
             <li><a href='#' className='hover:text-[#E1AF93] font-medium'>Планировки</a></li>
