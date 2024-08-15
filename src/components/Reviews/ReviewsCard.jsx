@@ -15,10 +15,10 @@ const ReviewsCard = ({ name, comment }) => {
             : `${previewText}${comment.length > 150 ? '...' : ''}`}
         </p>
         <button
-          className={`  ${comment.length <=450 ? 'hidden':'text-blue-500 mt-2'}`}
+          className={`  ${comment.length <=450 ? 'hidden':'text-[#E1AF93] mt-2'}`}
           onClick={() => setIsExpanded(!isExpanded)}
         >
-          {isExpanded  ? 'Yopish' : 'Batafsil o\'qish'}
+          {isExpanded  ? '' : 'Читать полностью'}
         </button>
       </div>
     </div>
